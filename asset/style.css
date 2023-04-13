@@ -37,6 +37,9 @@ body {
 
 .pool-brothers__metrics_item {
   font-weight: 500;
+  text-align: center;
+  margin-top: .75rem;
+  margin-bottom: .75rem;
 }
 
 .pool-brothers__resurfacing .col-md-12 {
@@ -115,12 +118,12 @@ body {
 
 @media screen and (max-width: 768px) {
   .pool-brothers__peak_season .important {
-    font-size: 2.5rem;
+    font-size: 3.25rem;
   }
 }
 
 .pool-brothers__peak_season_des {
-  font-size: 2.2rem;
+  font-size: 1.4rem;
   font-weight: 700;
 }
 
@@ -143,6 +146,78 @@ body {
   -webkit-filter: drop-shadow(0px 4px 66px rgba(0, 0, 0, 0.06));
           filter: drop-shadow(0px 4px 66px rgba(0, 0, 0, 0.06));
   border-radius: 24px;
+}
+
+.pool-brothers__bonus_title {
+  color: #9EE712;
+  font-size: 5.2rem;
+  line-height: 1;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 768px) {
+  .pool-brothers__bonus_title {
+    font-size: 3.5rem;
+  }
+}
+
+.pool-brothers__bonus_freetitle {
+  color: #000;
+  font-size: 8.5rem;
+  line-height: 1;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 768px) {
+  .pool-brothers__bonus_freetitle {
+    font-size: 4rem;
+  }
+}
+
+.pool-brothers__bonus_des {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .pool-brothers__bonus_des {
+    font-size: 1.5rem;
+  }
+}
+
+.pool-brothers__bonus .card {
+  background: #9EE712;
+  -webkit-box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+  border-radius: 24px;
+}
+
+.pool-brothers__bonus .card .btn-black {
+  background: #000;
+  color: #9EE712;
+  font-weight: 800;
+  font-size: 2.25rem;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .pool-brothers__bonus .card .btn-black {
+    font-size: 1.5rem;
+  }
+}
+
+.pool-brothers__bonus .card .btn-white {
+  background: #fff;
+  color: #000;
+  font-weight: 800;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .pool-brothers__bonus .card .btn-white {
+    font-size: 1.5rem;
+  }
 }
 
 .navbar {

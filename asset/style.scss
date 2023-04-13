@@ -44,6 +44,9 @@ body{
         background-color: #ECECEC;
         &_item{
             font-weight: 500;
+            text-align: center;
+            margin-top: .75rem;
+            margin-bottom: .75rem;
         }
     }
 
@@ -119,11 +122,11 @@ body{
             line-height: 1;
     
             @media screen and (max-width:768px) {
-                font-size: 2.5rem;
+                font-size: 3.25rem;
             }
         }
         &_des{
-            font-size: 2.2rem;
+            font-size: 1.4rem;
             font-weight: 700;
             @media screen and (max-width:768px) {
                     font-size: 1.5rem;
@@ -141,6 +144,65 @@ body{
                 border: 6px dashed #CA192A;
                 filter: drop-shadow(0px 4px 66px rgba(0, 0, 0, 0.06));
                 border-radius: 24px;
+            }
+        }
+    }
+
+    &__bonus{
+        &_title{
+            color: $secondary-color;
+            font-size: 5.2rem;
+            line-height: 1;
+            font-weight: 800;
+            @media screen and (max-width:768px) {
+                font-size: 3.5rem;
+            }
+        }
+        &_freetitle{
+            color: #000;
+            font-size: 8.5rem;
+            line-height: 1;
+            font-weight: 800;
+        
+            @media screen and (max-width:768px) {
+                font-size: 4rem;
+            }
+        }
+
+        &_des {
+            font-size: 2.2rem;
+            font-weight: 700;
+
+            @media screen and (max-width:768px) {
+                font-size: 1.5rem;
+            }
+        }
+
+        .card{
+            background: $secondary-color;
+            box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+            border-radius: 24px;
+
+            .btn-black{
+                background: #000;
+                color: $secondary-color;
+                font-weight: 800;
+                font-size: 2.25rem;
+                border-radius: 1rem;
+                @media screen and (max-width:768px) {
+                    font-size: 1.5rem;
+                }
+            }
+
+            .btn-white {
+                background: #fff;
+                color: #000;
+                font-weight: 800;
+                font-size: 1.5rem;
+                border-radius: 1rem;
+                @media screen and (max-width:768px) {
+                        font-size: 1.5rem;
+                    }
             }
         }
     }
