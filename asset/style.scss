@@ -9,13 +9,22 @@ $black-color: #000;
 .btn-green{
     background: $secondary-color;
 }
+.text-black{
+    color: #000;
+}
+
+.text-dark{
+    color: #000 !important;
+}
 
 .text-secondary-para{
     color: #818181;
     font-size: 1.1rem;
 }
 
-
+.fw-500{
+    font-weight: 500;
+}
 
 
 body{
@@ -93,6 +102,53 @@ body{
 
     }
 
+    &__proof{
+        .card{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+            border-radius: 24px;
+            border: none;
+        }
+    }
+
+    &__peak_season{
+        background: #CA192A !important;
+        
+        .important {
+            font-size: 5.5rem;
+            line-height: 1;
+    
+            @media screen and (max-width:768px) {
+                font-size: 2.5rem;
+            }
+        }
+        &_des{
+            font-size: 2.2rem;
+            font-weight: 700;
+            @media screen and (max-width:768px) {
+                    font-size: 1.5rem;
+                }
+        }
+    }
+
+    &__bookings{
+        .card{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+            border-radius: 24px;
+            border: none;
+            .booking_inner{
+                border: 6px dashed #CA192A;
+                filter: drop-shadow(0px 4px 66px rgba(0, 0, 0, 0.06));
+                border-radius: 24px;
+            }
+        }
+    }
+
+}
+
+.bg-danger{
+    
 }
 
 .navbar{

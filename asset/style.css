@@ -3,9 +3,21 @@
   background: #9EE712;
 }
 
+.text-black {
+  color: #000;
+}
+
+.text-dark {
+  color: #000 !important;
+}
+
 .text-secondary-para {
   color: #818181;
   font-size: 1.1rem;
+}
+
+.fw-500 {
+  font-weight: 500;
 }
 
 body {
@@ -82,6 +94,55 @@ body {
 
 .pool-brothers__features {
   background: #016BD7;
+}
+
+.pool-brothers__proof .card {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+  border-radius: 24px;
+  border: none;
+}
+
+.pool-brothers__peak_season {
+  background: #CA192A !important;
+}
+
+.pool-brothers__peak_season .important {
+  font-size: 5.5rem;
+  line-height: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .pool-brothers__peak_season .important {
+    font-size: 2.5rem;
+  }
+}
+
+.pool-brothers__peak_season_des {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .pool-brothers__peak_season_des {
+    font-size: 1.5rem;
+  }
+}
+
+.pool-brothers__bookings .card {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+  border-radius: 24px;
+  border: none;
+}
+
+.pool-brothers__bookings .card .booking_inner {
+  border: 6px dashed #CA192A;
+  -webkit-filter: drop-shadow(0px 4px 66px rgba(0, 0, 0, 0.06));
+          filter: drop-shadow(0px 4px 66px rgba(0, 0, 0, 0.06));
+  border-radius: 24px;
 }
 
 .navbar {
