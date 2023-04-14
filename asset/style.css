@@ -31,6 +31,22 @@ body {
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 768px) {
+  .pool-brothers__hero {
+    background: url("/asset/images/header-image.png");
+    background-size: cover;
+    background-position: -600px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pool-brothers__hero .rating img {
+    width: 120px;
+    margin-bottom: .75rem;
+  }
+}
+
 .pool-brothers__metrics {
   background-color: #ECECEC;
 }
@@ -63,7 +79,7 @@ body {
   margin-left: auto;
 }
 
-@media screen and (max-widht: 768px) {
+@media screen and (max-width: 768px) {
   .pool-brothers__resurfacing .bulletlist {
     width: 100%;
   }
